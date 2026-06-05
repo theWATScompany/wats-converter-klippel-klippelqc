@@ -1,0 +1,69 @@
+//full path of currently used database (database in current test folder)
+Cfg_DatabasePath=D:\databases\WATS\example.kdbx
+
+//Date Time of start.  Format: see SciLab function getDate().
+Cfg_DutStartTime=2020-5-20-135-5-14-10-2-51-303-120-1.589E+09
+
+//true if limit calculation mode is activated on property page Limits
+Cfg_LimitCalcMode=F
+
+//true if recalibration of limits has been started
+Cfg_LimitCalibMode=F
+
+//true if all limits of all tasks required to run the operation are calculated. It is also true, if no limit is required.
+Cfg_LimitsAvail=T
+
+//login mode, possible values are: "OPERATOR" "ENGINEER" "PROGRAMMER"
+Cfg_LoginMode=PROGRAMMER
+
+//Name of IOMonitor entered at Hardware Dialog. For details see separate documentation on IOMonitor.
+Cfg_MonitorID=
+
+//Provides Windows name of computer
+Cfg_PCName=
+
+//serial number of current DUT
+Cfg_SerialNumber=xyz116
+
+//currently used speaker channel
+Cfg_Speaker=sp2
+
+//Current user name
+Cfg_UserName=win:m.liebig
+
+//Global error message. If non-empty the measurement will be blocked and the error message is shown in the Summary window.
+Ctrl_ErrorGeneral=
+
+//Code for overall verdict: -1: Void, no result 0: Fail, nok 1: Pass, ok 2: Warning 3: Noise 4: Invalid
+Ctrl_OverallVerdict=1
+
+//True, if the test (all tasks) is going to be repeated
+Ctrl_Repeat=F
+
+//Carries the full file name for data logging (.kdbx file).
+Ctrl_SaveData=D:\databases\WATS\Log\DUT xyz116 2020-05-14 10-02-51-3 UTC+0200.kdbx
+
+//Absolute path to the folder used for data logging
+Ctrl_LogFolder=D:\databases\WATS\Log\
+
+//Session-wide execution mode. This variable is mainly dedicated to external synchronization modes.
+Cfg_ExecutionMode=-1
+
+//String with all passed test results, tab (ascii(9)) separated
+Results_Pass=imp	re	fs	resp	level	pol	thd	rbz
+
+//String with all failed test results, tab (ascii(9)) separated
+Results_Fail=
+
+//String with all warning test results, tab (ascii(9)) separated
+Results_Warning=
+
+//String with all void test results, tab (ascii(9)) separated
+Results_Void=
+
+//String with all noise test results, tab (ascii(9)) separated
+Results_Noise=
+
+//String with all invalid test results, tab (ascii(9)) separate
+Results_Invalid=
+

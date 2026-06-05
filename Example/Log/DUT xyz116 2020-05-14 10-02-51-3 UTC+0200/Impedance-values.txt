@@ -1,0 +1,3 @@
+name	value	max	min
+re	3.2088	3.5156	2.8764
+qts	1.1325		

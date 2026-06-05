@@ -1,0 +1,2 @@
+name	value	max	min
+level	95.203	97.337	91.337

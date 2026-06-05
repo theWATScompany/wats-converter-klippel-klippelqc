@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-windows;net48</TargetFrameworks>
+    <AssemblyName>KlippelConverters</AssemblyName>
+    <RootNamespace>Virinco.WATS.Converter.Klippel</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Virinco.WATS.Testing" Version="*" />
+    <Compile Remove="ConverterTests.cs" />
+    <Compile Remove="_legacy_*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Virinco.WATS.Testing" Version="*" />
+    <PackageReference Include="Virinco.WATS.ClientAPI" Version="7.*">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
+

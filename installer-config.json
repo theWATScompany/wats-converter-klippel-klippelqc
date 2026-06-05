@@ -1,0 +1,11 @@
+{
+    "assemblyName": "KlippelConverters",
+    "converterClass": "Virinco.WATS.Converter.Klippel.KlippelLogConverter",
+    "displayName": "Klippel QC Converter",
+    "description": "Converts Klippel QC test log files to WATS UUT reports.",
+    "version": "1.0.0",
+    "fileFilter": "*.txt",
+    "uploadPath": "C:\\ProgramData\\Virinco\\WATS\\KlippelConverters",
+    "postProcessAction": "Archive",
+    "productGuid": "e92fd7ce-dc75-40ee-73aa-a786bc8cabfc"
+}
